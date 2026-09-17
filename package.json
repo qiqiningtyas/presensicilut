@@ -1,0 +1,29 @@
+{
+  "name": "pengingat-presensi-kecamatan-cilacap-utara",
+  "version": "1.0.0",
+  "description": "Sistem Pengingat Presensi & Ulang Tahun WhatsApp Kantor Kecamatan Cilacap Utara",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_system_full.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "presensi",
+    "kecamatan-cilacap-utara",
+    "cron",
+    "anti-ban"
+  ],
+  "author": "Kecamatan Cilacap Utara",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "node-cron": "^4.6.0",
+    "pino": "^10.3.1",
+    "qrcode": "^1.5.4"
+  }
+}
