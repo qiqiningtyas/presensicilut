@@ -9,6 +9,7 @@ const db = require('./src/database/db');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
